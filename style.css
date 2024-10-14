@@ -1,0 +1,46 @@
+body {
+    background-color: #1b3b4f;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.forecast-container {
+    background-color: #213c4f;
+} 
+
+.forecast-container h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.forecast-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #254556;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.forecast-day {
+    flex: 1;  
+}
+
+.forecast-icon {
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-right: 25px; 
+}
+
+.gray {
+    background-color: gray;
+}
